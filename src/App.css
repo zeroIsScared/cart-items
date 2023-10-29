@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.cart-item {
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
+}
+
+.image {
+  display: flex;
+  width: 10vw;
+ 
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.money-container {
+    display: flex;
+    align-items: center; 
+    padding: 2.5vw; 
+    width: 5vw;
+
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center; 
+  padding: 2.5vw;  
+  width: 5vw;
+  position:relative;
+
+}
+
+button {
+  height: 2.0vh;
+}
+
+p {
+  padding: 1vw;
+  font-weight: 600;  
+}
+
+.product-container {
+  display:flex;
+justify-content: center;
+width: 15vw;
+padding: 2.5vw; 
+align-items: center; 
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column; 
+  width: 42vw;
+  align-items: center;;
+}
