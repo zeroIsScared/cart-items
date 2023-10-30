@@ -1,8 +1,8 @@
 import CartItem from "./CartItem.js";
-import Product from "./Product.js";
-import Quantity from "./Quantity.js";
-import Image from "./Image.js";
-import Money from "./Money.js";
+import Product from "../product/Product.js";
+import Quantity from "../product/Quantity.js";
+import Image from "../product/Image.js";
+import Money from "../product/Money.js";
 import {getCartItems} from "./api.js"
 
 

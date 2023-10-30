@@ -1,5 +1,5 @@
 import { CartItem } from "./model.js";
-import images from './images.js';
+import images from "./images.js";
 
 export const getCartItems = () => {
     const cartItems = [
