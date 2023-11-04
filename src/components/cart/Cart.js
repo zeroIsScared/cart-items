@@ -9,23 +9,14 @@ import {getCartItems} from "./api.js"
 
 const Cart = () => {
 
-    const cartItems = getCartItems();
-    console.log(cartItems)
+    const cartItems = getCartItems();    
 
     return (
         <ul className="cart-list"> 
             {
-              cartItems.map( item => {
-            const {product: {id, name, image,price:{currency}}, quantity, money:{cost}} = item;
-               return <CartItem key= {id}>
-                    <Product name={name}>
-                        <Image image= {image} alt='product'/>
-                        </ Product>
-                    <Quantity quantity={quantity}/>
-                    <Money cost={cost} currency={currency}/>
-                </CartItem>
-            
-              }) }
+              cartItems.map( item =>          
+               <CartItem key= {item.product.id} cartItem={item} /> ) 
+            }
         </ul>
     )
 }

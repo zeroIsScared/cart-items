@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display:flex;
+  justify-content: flex-start;
 }
 
 .App-logo {
@@ -93,4 +95,13 @@ align-items: center;
   flex-direction: column; 
   width: 42vw;
   align-items: center;;
+}
+
+.filter-panel {
+ padding: 5vh; 
+}
+
+.filter-item {
+  display: flex;
+  justify-content: flex-start; 
 }
